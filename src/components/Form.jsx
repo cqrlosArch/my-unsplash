@@ -28,7 +28,7 @@ const FormStyled = styled.form`
     color: #111;
 
     @media screen and (min-width: 600px) {
-      min-width: 400px;
+      min-width: 350px;
     }
     @media screen and (min-width: 1000px) {
       min-width: 500px;
