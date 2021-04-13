@@ -21,14 +21,14 @@ const PhotoContainer = styled.div`
 
     .button-delete {
       position: absolute;
-      right: 20px;
-      top: 20px;
+      right: 10px;
+      top: 10px;
       outline: none;
       background-color: transparent;
       border: 1px solid var(--red);
       color: var(--red);
       border-radius: 38px;
-      padding: 0.5rem 1rem;
+      padding: 0.3rem .5rem;
       cursor: pointer;
       &:hover {
         background-color: var(--red);
