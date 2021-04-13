@@ -26,8 +26,10 @@ const HeaderStyled = styled.header`
   }
 
   .logo {
-    width: 100%;
     width: 200px;
+    @media screen and (min-width: 768px) {
+      width: 150px;
+    }
   }
 
   .button {
