@@ -43,7 +43,6 @@ export const AppContextProvider = ({ children }) => {
       .onSnapshot((querySnapshot) => {
         let photosArr = [];
         querySnapshot.forEach((doc) => {
-          console.log(doc.data());
           photosArr.push({
             id: doc.id,
             label: doc.data().label,
